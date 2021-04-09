@@ -582,10 +582,10 @@ section {
   background: #1b1b1b;
   position: absolute;
   bottom: 60px;
-  top: 0px;
+  top: 60px;
   left: 0;
   right: 0;
-  /* transform: skewY(-3deg); */
+  transform: skewY(-3deg);
 }
 
 
@@ -640,7 +640,9 @@ section {
 .about .icon-boxes .icon-box i {
   font-size: 40px;
   color: #e03a3c;
-  margin-bottom: 10px;
+  float: left;
+ padding-right: 40px;
+  /* margin-bottom: 10px; */
 }
 
 .about .icon-boxes .icon-box h4 {
@@ -652,6 +654,7 @@ section {
 .about .icon-boxes .icon-box p {
   font-size: 15px;
   color: #848484;
+  margin-left: 60px;
 }
 
 @media (max-width: 1200px) {
@@ -810,6 +813,11 @@ section {
 }
 
 .services .icon-box i {
+  float: left;
+  color: #e03a3c;
+  font-size: 40px;
+}
+.services .icon-box .iconify {
   float: left;
   color: #e03a3c;
   font-size: 40px;
@@ -2199,3 +2207,66 @@ section {
   width: 100%;
   height: 100%;
 }
+
+
+
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+.about-us .content {
+  padding: 30px 0;
+}
+
+.about-us .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.about-us .content p {
+  margin-bottom: 0;
+}
+
+.about-us .content .icon-box {
+  margin-top: 25px;
+}
+
+.about-us .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+
+.about-us .content .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #f03c02;
+}
+
+.about-us .content .icon-box p {
+  font-size: 15px;
+  color: #90847f;
+  margin-left: 60px;
+}
+
+.about-us .image {
+  background: url("../img/about.JPG") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+@media (max-width: 991px) {
+  .about-us .image {
+    text-align: center;
+  }
+  .about-us .image img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 667px) {
+  .about-us .image img {
+    max-width: 100%;
+  }
+}
+
