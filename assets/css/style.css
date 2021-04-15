@@ -2344,7 +2344,7 @@ section {
   
   .demonstrations a img {
     /* float: left; */
-    width: 90%;
+    width: 250px;
     height: 250px;
     /* margin: 40px 50px; */
   }
