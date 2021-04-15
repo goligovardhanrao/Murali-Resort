@@ -2338,6 +2338,17 @@ section {
 }
 }
 
+
+@media (max-width: 575px)
+{
+  .demonstrations a img {
+    /* float: left; */
+    width: 300px;
+    height: 250px;
+    /* margin: 40px 50px; */
+  }
+
+}
 /* @media only screen and(max-width: 575px)
 {
 
