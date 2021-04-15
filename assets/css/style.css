@@ -2341,15 +2341,10 @@ section {
 
 @media (max-width: 575px)
 {
-  .demonstrations a  {
-    /* float: left; */
-    width: 50%;
-    
-    /* margin: 40px 50px; */
-  }
+  
   .demonstrations a img {
     /* float: left; */
-    width: 100%;
+    width: 90%;
     height: 250px;
     /* margin: 40px 50px; */
   }
