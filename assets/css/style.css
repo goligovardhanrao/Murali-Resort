@@ -13,7 +13,7 @@ a {
 
 a:hover {
   color: #e76668;
-  text-decoration: none;
+  text-decoration: none!important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -836,7 +836,7 @@ section {
 }
 
 .services .icon-box h4 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .services .icon-box .icon-box:hover h4 a {
@@ -2272,7 +2272,7 @@ section {
 
 
 
-
+/* 
 
 
 .btn{
@@ -2327,7 +2327,7 @@ section {
   .btn{ margin-bottom: 20px; }
 }
 
-
+ */
 
 
 
