@@ -1,0 +1,382 @@
+/* ------------------------------------------
+[Master Stylesheet]
+
+Template Name: Alime - Photography HTML Template
+Template Author: Colorlib
+Template Author URL: http://colorlib.com
+Version: 1.0.0
+Last Update: Feb 22, 2019
+
+
+[Tables of CSS Content]
+
++ body
+
+    - 01.0 Reboot CSS
+    - 02.0 Spacing CSS
+    - 03.0 Preloader CSS
+    - 04.0 Heading CSS
+    - 05.0 Backtotop CSS
+    - 06.0 Buttons CSS
+    - 07.0 Header CSS
+    - 08.0 Hero CSS
+    - 09.0 Footer CSS
+    - 10.0 Follow CSS
+    - 11.0 About CSS
+    - 12.0 Breadcrumb CSS
+    - 13.0 Blog CSS
+    - 14.0 Team CSS
+    - 15.0 Gallery CSS
+    - 16.0 Contact CSS
+
+--------------------------------------------- */
+/* Import Fonts & All CSS */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700");
+@import url(css/bootstrap.min.css);
+@import url(css/animate.css);
+@import url(css/default-assets/classy-nav.css);
+@import url(css/owl.carousel.min.css);
+@import url(css/magnific-popup.css);
+@import url(css/font-awesome.min.css);
+@import url(css/default-assets/themify-icons.css);
+@import url(css/style.css);
+/* :: 01.0 Reboot CSS */
+
+
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+  position: fixed;
+  z-index: 100;
+  color: #ffffff;
+  right: 20px;
+  text-align: center;
+  padding-right: 0;
+  width: 100%;
+  top: 20px;
+  width: 30px;
+  background: #fc6060;
+  height: 30px;
+  line-height: 30px; }
+
+img.mfp-img {
+  -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15); }
+
+button.mfp-close,
+button.mfp-arrow {
+  background: #fc6060; }
+
+.mfp-bottom-bar {
+  display: none !important; }
+
+.mfp-bg {
+  background-color: #000000; }
+
+.bg-transparent {
+  background-color: transparent !important; }
+
+.bg-gray {
+  background-color: #f7f7f7 !important; }
+
+textarea:focus,
+input:focus {
+  outline: none; }
+
+textarea:invalid,
+input:invalid,
+textarea:required,
+input:required {
+  box-shadow: none !important; }
+
+.border {
+  border-color: #ebebeb; }
+
+.mfp-arrow-left::after {
+  border-right-color: transparent; }
+
+.mfp-arrow-left::before {
+  border-right-color: #ffffff; }
+
+.mfp-arrow-right::after {
+  border-left-color: transparent; }
+
+.mfp-arrow-right::before {
+  border-left-color: #ffffff; }
+
+/* :: 02.0 Spacing CSS */
+.mt-15 {
+  margin-top: 15px; }
+
+.mt-30 {
+  margin-top: 30px; }
+
+.mt-40 {
+  margin-top: 40px; }
+
+.mt-50 {
+  margin-top: 50px; }
+
+.mt-70 {
+  margin-top: 70px; }
+
+.mt-80 {
+  margin-top: 80px; }
+
+.mt-100 {
+  margin-top: 100px; }
+
+.mt-150 {
+  margin-top: 150px; }
+
+.mr-15 {
+  margin-right: 15px; }
+
+.mr-30 {
+  margin-right: 30px; }
+
+.mr-50 {
+  margin-right: 50px; }
+
+.mr-100 {
+  margin-right: 100px; }
+
+.mb-10 {
+  margin-bottom: 10px; }
+
+.mb-15 {
+  margin-bottom: 15px; }
+
+.mb-30 {
+  margin-bottom: 30px; }
+
+.mb-40 {
+  margin-bottom: 40px; }
+
+.mb-50 {
+  margin-bottom: 50px; }
+
+.mb-60 {
+  margin-bottom: 60px; }
+
+.mb-70 {
+  margin-bottom: 70px; }
+
+.mb-80 {
+  margin-bottom: 80px; }
+
+.mb-100 {
+  margin-bottom: 100px; }
+
+.ml-15 {
+  margin-left: 15px; }
+
+.ml-30 {
+  margin-left: 30px; }
+
+.ml-50 {
+  margin-left: 50px; }
+
+.ml-100 {
+  margin-left: 100px; }
+
+.pt-50 {
+  padding-top: 50px !important; }
+
+.section-padding-80 {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.section-padding-0-80 {
+  padding-top: 0;
+  padding-bottom: 80px; }
+
+.section-padding-80-0 {
+  padding-top: 80px;
+  padding-bottom: 0; }
+
+.section-padding-80-50 {
+  padding-top: 80px;
+  padding-bottom: 50px; }
+
+.section-padding-100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.section-padding-0-100 {
+  padding-top: 0;
+  padding-bottom: 100px; }
+
+.section-padding-100-0 {
+  padding-top: 100px;
+  padding-bottom: 0; }
+
+/* :: 6.0 Buttons CSS */
+.btn:focus {
+  box-shadow: none; }
+
+.alime-btn {
+  position: relative;
+  z-index: 1;
+  min-width: 160px;
+  height: 46px;
+  line-height: 42px;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0 30px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #fc6060;
+  border-radius: 60px;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms; }
+  .alime-btn.btn-2 {
+    color: #252525; }
+  .alime-btn:focus, .alime-btn:hover {
+    font-weight: 500;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    background-color: #fc6060;
+    color: #ffffff; }
+
+.badges-btn {
+  background-color: #ebebeb;
+  padding: 5px 15px;
+  display: inline-block;
+  color: #636363;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 2px;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  letter-spacing: 1px; }
+  .badges-btn:hover, .badges-btn:focus {
+    background-color: #fc6060;
+    color: #ffffff;
+    font-weight: 500; }
+
+
+/* :: 15.0 Gallery CSS */
+.alime-portfolio-area {
+  position: relative;
+  z-index: 1; }
+  .alime-portfolio-area .container-fluid {
+    padding-right: 10%;
+    padding-left: 10%; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .alime-portfolio-area .container-fluid {
+        padding-right: 5%;
+        padding-left: 5%; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .alime-portfolio-area .container-fluid {
+        padding-right: 5%;
+        padding-left: 5%; } }
+    @media only screen and (max-width: 767px) {
+      .alime-portfolio-area .container-fluid {
+        padding-right: 5%;
+        padding-left: 5%; } }
+
+.alime-projects-menu {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 40px; }
+  .alime-projects-menu .portfolio-menu .btn {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0;
+    margin: 0 18px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms; }
+    @media only screen and (max-width: 767px) {
+      .alime-projects-menu .portfolio-menu .btn {
+        font-size: 14px;
+        margin: 0 5px; } }
+    .alime-projects-menu .portfolio-menu .btn::after {
+      -webkit-transition-duration: 500ms;
+      -o-transition-duration: 500ms;
+      transition-duration: 500ms;
+      position: absolute;
+      width: 0%;
+      height: 3px;
+      background-color: #fc6060;
+      content: '';
+      bottom: -5px;
+      left: 0;
+      right: 0;
+      z-index: 1; }
+    .alime-projects-menu .portfolio-menu .btn.active::after {
+      width: 100%; }
+
+.single-portfolio-content {
+  position: relative;
+  z-index: 1;
+  -webkit-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  overflow: hidden; }
+  .single-portfolio-content img {
+    width: 100%;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms; }
+  .single-portfolio-content .hover-content {
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10; }
+    .single-portfolio-content .hover-content a {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: 0;
+      margin-left: -26px;
+      z-index: 100;
+      display: inline-block;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background-color: #fc6060;
+      text-align: center;
+      line-height: 52px;
+      font-size: 30px;
+      color: #ffffff; }
+      .single-portfolio-content .hover-content a:hover, .single-portfolio-content .hover-content a:focus {
+        background-color: #000000; }
+  .single-portfolio-content:hover img, .single-portfolio-content:focus img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
+  .single-portfolio-content:hover .hover-content, .single-portfolio-content:focus .hover-content {
+    opacity: 1;
+    visibility: visible; }
+    .single-portfolio-content:hover .hover-content a, .single-portfolio-content:focus .hover-content a {
+      margin-top: -26px; }
+
+
+
+
+
+
+
+
